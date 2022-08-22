@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css">  -->
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+       
+    <header class="header"> 
+        <div class="container header-container">
+            
+            <nav class="header-navigation">
+                <div class="logo"> <a  href ="./webstodio.html" class="logo__ferst"> 
+                    Web<span class="logo__last">Studio </span> </a>
+                </div>
+                <button type="button" class="header__menu is-open" 
+                aria-expanded ="false" aria-controls="menu__mobile" data-menu-button> 
+                   <svg height="24"   width="24" aria-label="Перемикач мобільного меню">
+
+                       <use class="icon-menu" href="./images/symbol-defs.svg#icon-close_24px" > </use> 
+                       <use class="icon-close" href="./images/symbol-defs.svg#icon-menu_24px" > </use> 
+                   </svg> 
+               </button>
+                <div class="menu-container"  data-menu >
+                    <div class="menu__mobile is-open" id="menu__mobile" > 
+                
+                
+                
+                        <ul class="header-nav"> 
+                        <li class="header-nav__item"> <a href = "./index.html" class=" header-nav__link ">Студія  </a>  </li>
+                        
+                        <li class="header-nav__item"> <a href = "./portfolio.html" class="header-nav__link--aktiv" >Портфоліо</a>  </li>
+                        <li class="header-nav__item"> <a href = "" class="header-nav__link">Контакти</a>  </li>
+                    
+                        </ul>
+                    </div>
+                                <div class="header-contakts">
+                                                <ul class="header-cont">
+                                                <li class="header-cont__item"> 
+                                                    <svg class="header-cont__svg" height="12"   width="16">
+                                                        <use href="./images/symbol-defs.svg#icon-email"></use>
+                                                    </svg>
+                                                    <a class="header-cont__link" href = "mailto: info@devstudio.com" >info@devstudio.com </a>
+                                                </li> 
+                                                <li class="header-cont__item">
+                                                    <svg class="header-cont__svg" height="16"   width="10">
+                                                        <use href="./images/symbol-defs.svg#icon-tel"></use>
+                                                    </svg>
+                                                    <a href ="tel:+38 096 111 11 11" class="header-cont__link header-cont__linktel "> +38 096 111 11 11  </a>
+                                                </li>
+                                                </ul>
+                                </div>
+
+ 
+                                <div class="headersocial"> 
+                                    <ul class="headersoc-link">
+                                    
+                                                    <li class="headersoc__item">  
+                                                        <a  class="headersoc-link__a" href="https://www.instagram.com">
+                                                            Instagram
+                                                        </a> 
+                                                    </li>
+                                    
+                                                    <li class="headersoc__item">  
+                                                        <a  class="headersoc-link__a" href="https://twitter.com/">
+                                                            Twitter
+                                                        </a> 
+                                                    </li>
+                                    
+                                                    <li class="headersoc__item"  > 
+                                                        <a class="headersoc-link__a"  href="https://www.facebook.com/">
+                                                            Facebook
+                                                        </a>
+                                                    </li> 
+                                                     <li class="headersoc__item">  
+                                                       <a  class="headersoc-link__a" href="https://ua.linkedin.com/"> 
+                                                        Linkedin
+                                                        </a> 
+                                                    </li>
+                                                </ul>
+                                    </div>
+
+
+
+
+
+
+                </div>
+            </nav>
+    </div>
+
+    </header>
+    
+<main>
+    <section class="section-product" >   
+        <div class="container">
+            
+                <ul class="button-nav">
+                    <li > <button class="button-nav__unit"  type="button">Усі </button>  </li>
+                    <li > <button  class="button-nav__unit" type="button"> Веб-сайти </button> </li>
+                    <li > <button  class="button-nav__unit" type="button"   > Додатки </button>   </li>
+                    <li > <button  class="button-nav__unit" type="button" > Дизайн </button>  </li>
+                    <li > <button  class="button-nav__unit" type="button"  > Маркетинг </button>  </li>
+                </ul>
+        </div>
+
+
+
+
+    
+                
+                    <!-- Примеры работ -->
+                    <div class="container container-works"> 
+                        <ul class="works__title">
+                                                  
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                        <div class="overley"> 
+                                            <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+
+                                            <picture>
+                                                <source  
+                                                srcset="./images/work1-desktop.jpg 1x,
+                                                ./images/work1-desktop@2x.jpg 2x"
+                                                media = "(min-width: 1200px)" />
+                                                <source  srcset="./images/work1-tablet.jpg 1x,
+                                                 ./images/work1-tablet@2x.jpg 2x"
+                                                 media  ="(min-width: 768px) " />
+                                                <source 
+                                                   srcset="./images/work1-mobile.jpg 1x,
+                                                 ./images/work1-mobile@2x.jpg 2x"
+                                                 media= "(min-width: 480px)" />
+                                                                                                                                               
+                                                 <img src="./images/work1.jpg">
+                                            </picture>
+                                           
+                                         </div>
+                                    
+                                        <!-- <div class="works__progect__decoration"> -->
+                                            <h3 class="works__text"> Технокряк</h3> <br>
+                                            <p class="works__symbol"> Веб-сайт</p>
+                                        <!-- </div> -->
+                                </div>
+                            </li>
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                    <div class="overley"> 
+                                        <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+                                        <picture>
+                                            <source  srcset="./images/work2-desktop.jpg 1x,
+                                            ./images/work2-desktop@2x.jpg 2x"
+                                            media = "(min-width: 1200px)" />
+                                            <source 
+                                            srcset="./images/work2-tablet.jpg 1x,
+                                             ./images/work2-tablet@2x.jpg 2x"
+                                             media = "(min-width: 768px)" />
+                                            <source 
+                                                srcset="./images/work2-mobile.jpg 1x,
+                                             ./images/work2-mobile@2x.jpg 2x"
+                                             media = "(min-width: 480px)" />
+                                             
+                                             
+                                            
+
+                                             <img src="./images/work2.jpg" >
+                                        </picture>
+                                       
+                                    </div>
+                                    <!-- <div class="works__progect__decoration"> -->
+                                        <h3 class="works__text"> Постер New Orlean vs Golden Star</h3><br>
+                                        <p class="works__symbol"> Дизайн</p>
+                                    <!-- </div> -->
+                                </div>
+                            </li>
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                        <div class="overley"> 
+                                            <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+                                        <picture>
+                                            <source  srcset="./images/work3-desktop.jpg 1x,
+                                            ./images/work3-desktop@2x.jpg 2x"
+                                            media= "(min-width: 1200px)" />
+                                            <source 
+                                            srcset="./images/work3-tablet.jpg 1x,
+                                             ./images/work3-tablet@2x.jpg 2x"
+                                             media= "(min-width: 768px)" />
+                                            <source 
+                                                srcset="./images/work3-mobile.jpg 1x,
+                                             ./images/work3-mobile@2x.jpg 2x"
+                                             media ="(min-width: 480px)" />
+                                        
+                                            <img src="./images/work3.jpg" width="450">
+                                        </picture>
+                                        </div>
+                                    </div>
+                                            <!-- <div class="works__progect__decoration"> -->
+                                                <h3 class="works__text"> Ресторан Seafood</h3> <br>
+                                                <p class="works__symbol"> Додаток</p>
+                                            <!-- </div> -->
+                                
+                            </li>
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                    <div class="overley"> 
+                                        <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+                                       <picture>
+                                        <source  srcset="./images/work4-desktop.jpg 1x,
+                                        ./images/work4-desktop@2x.jpg 2x"
+                                        media ="(min-width: 1200px)" />
+                                        <source 
+                                        srcset="./images/work4-tablet.jpg 1x,
+                                         ./images/work4-tablet@2x.jpg 2x"
+                                         media ="(min-width: 768px)" />
+                                        <source 
+                                        srcset="./images/work4-mobile.jpg 1x,
+                                     ./images/work4-mobile@2x.jpg 2x"
+                                     media= "(min-width: 480px)" />
+                                     
+                                   
+                                        
+                                        <img src="./images/work4.jpg" >
+
+
+                                       </picture>
+                                        
+                                     </div>
+                                    <div class="works__progect__decoration">
+                                        <h3 class="works__text"> Проект Prime</h3><br>
+                                        <p class="works__symbol"> Маркетинг</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                    <div class="overley"> 
+                                        <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+                                       <picture>
+                                        <source  srcset="./images/work5-desktop.jpg 1x,
+                                        ./images/work5-desktop@2x.jpg 2x"
+                                        media ="(min-width: 1200px)" />
+                                        <source 
+                                        srcset="./images/work5-tablet.jpg 1x,
+                                         ./images/work5-tablet@2x.jpg 2x"
+                                         media ="(min-width: 768px)" />
+                                        <source 
+                                        srcset="./images/work5-mobile.jpg 1x,
+                                     ./images/work5-mobile@2x.jpg 2x"
+                                     media= "(min-width: 480px)" />
+                                     <img src="./images/work5.jpg" >
+                                       </picture>
+                                        
+                                     </div>
+                                    <div class="works__progect__decoration">
+                                        <h3 class="works__text"> Проект Boxes</h3><br>
+                                        <p class="works__symbol"> Додаток</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                    <div class="overley"> 
+                                        <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+                                      <picture>
+                                        <source  srcset="./images/work6-desktop.jpg 1x,
+                                        ./images/work6-desktop@2x.jpg 2x"
+                                        media ="(min-width: 1200px)" />
+                                        <source 
+                                        srcset="./images/work6-tablet.jpg 1x,
+                                         ./images/work6-tablet@2x.jpg 2x"
+                                         media ="(min-width: 768px)" />
+                                        <source 
+                                        srcset="./images/work6-mobile.jpg 1x,
+                                     ./images/work6-mobile@2x.jpg 2x"
+                                     media= "(min-width: 480px)" />
+                                     <img src="./images/work6.jpg" >
+                                      </picture>
+                                        
+                                     </div>
+                                    <div class="works__progect__decoration">
+                                        <h3 class="works__text"> Inspiration has no Borders</h3><br>
+                                        <p class="works__symbol"> Веб-сайт</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                    <div class="overley"> 
+                                        <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+                                       <picture>
+
+                                        <source  srcset="./images/work7-desktop.jpg 1x,
+                                        ./images/work7-desktop@2x.jpg 2x"
+                                        media ="(min-width: 1200px)" />
+                                        <source 
+                                        srcset="./images/work7-tablet.jpg 1x,
+                                         ./images/work7-tablet@2x.jpg 2x"
+                                         media ="(min-width: 768px)" />
+                                        <source 
+                                        srcset="./images/work7-mobile.jpg 1x,
+                                     ./images/work7-mobile@2x.jpg 2x"
+                                     media= "(min-width: 480px)" />
+                                     <img src="./images/work7.jpg" >
+                                       </picture>
+                                        
+                                     </div>
+                                    <div class="works__progect__decoration">
+                                        <h3 class="works__text"> Издание Limited Edition</h3><br>
+                                        <p class="works__symbol"> Дизайн</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                    <div class="overley"> 
+                                        <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+                                      <picture>
+
+                                        <source  srcset="./images/work8-desktop.jpg 1x,
+                                        ./images/work8-desktop@2x.jpg 2x"
+                                        media ="(min-width: 1200px)" />
+                                        <source 
+                                        srcset="./images/work8-tablet.jpg 1x,
+                                         ./images/work8-tablet@2x.jpg 2x"
+                                         media ="(min-width: 768px)" />
+                                        <source 
+                                        srcset="./images/work8-mobile.jpg 1x,
+                                     ./images/work8-mobile@2x.jpg 2x"
+                                     media= "(min-width: 480px)" />
+                                     <img src="./images/work8.jpg" >
+                                      </picture>
+                                        
+                                     </div>
+                                    </div>
+                                    <div class="works__progect__decoration">
+                                        <h3 class="works__text"> Проект LAB</h3><br>
+                                        <p class="works__symbol"> Маркетинг </p>
+                                    </div>
+                                
+                            </li>
+                            <li class="works__item">
+                                <div class="overley-full"> 
+                                            <div class="overley"> 
+                                                <p class="overley-text"> Ресурс пропонує  комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримувати вичерпні відомості про компанію чи приватну особу.</p> 
+                                           <picture>
+
+                                            <source  srcset="./images/work9-desktop.jpg 1x,
+                                            ./images/work9-desktop@2x.jpg 2x"
+                                            media ="(min-width: 1200px)" />
+                                            <source 
+                                            srcset="./images/work9-tablet.jpg 1x,
+                                             ./images/work9-tablet@2x.jpg 2x"
+                                             media ="(min-width: 768px)" />
+                                            <source 
+                                            srcset="./images/work9-mobile.jpg 1x,
+                                         ./images/work9-mobile@2x.jpg 2x"
+                                         media= "(min-width: 480px)" />
+                                         <img src="./images/work9.jpg" >
+                                           </picture>
+                                                
+                                            </div>
+                                    
+                                    <div class="works__progect__decoration">
+                                        <h3 class="works__text"> Growing Business</h3><br>
+                                        <p class="works__symbol"> Додаток</p>
+                                
+                                    </div>
+                                </div>
+                            </li>
+            </ul>
+    </div>
+    </section>
+</main> 
+<footer class="footer">
+    <div class="container">
+        <div class="footer-container"  >
+            <div class="footer-together"> 
+                <div class="footer-contacts">
+                    <ul class="footer__center">
+                        <li>
+                            <a class="logo  logo--footer logo__first" href ="./webstodio.html"> Web<span class="logo__last--footer">Studio </span> </a> 
+                        </li>
+                                            
+                        <li>
+                            <a href="https://goo.gl/maps/sG5o7renHpmHk2K48" class="footer-adress"> м. Київ, пр-т Лесі Украинки, 26</a> 
+                        </li>
+                        <li>
+                            <a href="mailto: info@example.com" class="footer-contaktsemail">info@example.com</a>  
+                        </li>
+                        <li>
+                            <a href="tel:+38 099 111 11 11 " class="footer-contaktstel"> +38 099 111 11 11</a> 
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="footer-link">
+
+                    <h2 class="footer-join">приєднуйтесь</h2>
+                
+                <ul class="social-link social-link--footer">
+
+                    <li class="social-link__item">  
+                        <a  class="social-link__a social-link__a--footer" href="https://www.instagram.com">
+                        <svg class="social-link__iconsvg social-link__iconsvg--footer">
+                            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                        </svg> 
+                        </a> 
+                    </li>
+
+                    <li class="social-link__item">  
+                        <a  class="social-link__a social-link__a--footer" href="https://twitter.com/">
+                        <svg class="social-link__iconsvg social-link__iconsvg--footer">
+                            <use href="./images/symbol-defs.svg#icon-twitter" > </use>
+                        </svg>
+                        </a> 
+                    </li>
+
+                    <li class="social-link__item"  > 
+                        <a class="social-link__a social-link__a--footer"  href="https://www.facebook.com/">
+                            <svg class="social-link__iconsvg social-link__iconsvg--footer"> 
+                                <use href="./images/symbol-defs.svg#icon-facebook" >  </use>
+                            
+                            </svg>
+                        </a>
+                    </li> 
+                    <li class="social-link__item">  
+                    <a  class="social-link__a social-link__a--footer" href="https://ua.linkedin.com/"> 
+                        <svg class="social-link__iconsvg social-link__iconsvg--footer">
+                            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                        </svg>
+                        </a> 
+                    </li>
+                </ul>
+                </div>  
+        </div>
+            <div class="foofer-sub">
+                <h3 class="footer-join"> Підпишіться на розсилку</h3>
+            <form>
+             <label class="footer-label">
+                 <input class="footer-lab" type="email" name="email" placeholder="E-mail" />
+               </label>
+                <button  class="footbutsub">Підписатись </button> </li>
+                
+                
+              
+            
+               <!-- <a  class="footbutsub">Подписаться </a> -->
+             </form>
+             </div>
+        </div> 
+    </div>
+</footer>
+   
+
+</body>
+</html>
+<script src="./js/mobile-menu.js"></script>
