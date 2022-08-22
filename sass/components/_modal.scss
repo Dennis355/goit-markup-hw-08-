@@ -1,0 +1,369 @@
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    /* display: block; */
+width: 528px;
+height: 581px;
+/* left: 536px;
+top: 221px; */
+
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+
+
+
+
+.button-modal{
+    
+/* display: block; */
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    left: 490px;
+    top: 8px;
+
+    
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+  
+}
+.button-modal:hover{
+    cursor: pointer;
+    fill: var(--trend-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+
+}
+.footer-lab{
+    background: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+width: 356px;
+height:50px;
+padding-left: 30px;
+color: #FFFFFF;
+}
+.footer-lab:hover {
+    border: 1px solid  #2196F3;
+transform: 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-lab:focus{
+    outline: 1px solid  #2196F3;
+transform: 2250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.footbutsub{
+display: inline-flex;
+/* position: relative; */
+padding-left: 29px;
+padding-right: 38px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border: 0;
+border-radius: 4px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+
+ display: inline-flex; 
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+.footbutsub::after{
+    content: "";
+    /* position: absolute; */
+    display: block;
+
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    
+    background-image:   url(../images/icon-telegram.svg);
+    background-size: contain;
+    }
+
+    
+  
+    .form-modal{
+        display: block;
+        width: 528px;
+        height: 581px;
+        padding-left: 41px;
+        padding-right: 39px;
+        padding-bottom: 40px;
+        padding-top:40px;
+    }
+
+
+
+    .textform{
+    display: block;
+
+    margin-bottom: 18px;    
+   
+       text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    }
+
+    textarea{
+        resize: none;
+
+    }
+    .textarea:hover{
+
+     border: 1px solid var(--trend-color);
+    cursor: pointer;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea:focus{
+
+    outline: 1px solid $trend-color;
+  
+   transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+    .form-label{
+        /* outline: 5 px solid tomato; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+       
+    }
+    .labpolisity-text{
+        display: flex;
+       align-content: center;
+       
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+
+color: #757575;
+    }
+
+
+
+    .lab-text{
+        display: block;
+        margin-bottom: 4px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        /* identical to box height */
+        letter-spacing: 0.01em;
+        color: #757575;
+    
+    }
+
+.form-swg{
+    
+     display: block;
+    
+    box-sizing: content-box;
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: rotateY(8px);
+    width: 12px;
+    height: 12px;
+    
+
+     fill:#212121; 
+
+}
+
+
+
+
+
+
+
+
+.form-input{
+    display: block;
+    height: 40px;
+    font: inherit;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+   padding-left: 40px;
+}
+   
+
+
+.form-input:hover {
+    border: 1px solid $trend-color;
+    cursor: pointer;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.form-input:focus {
+    outline: 1px solid $trend-color;
+    
+} 
+
+.form-swg:hover
+{
+    fill: #2196f3;
+} 
+
+.labpolisity-text a{
+    color: #2196F3;
+    text-decoration: underline;
+    margin-left: 3px;
+}
+.labpolisity-text::before{
+display: block;
+/* align-content: center; */
+content: "";
+width: 16px;
+height: 16px;
+text-align: center;
+
+border: 2px solid #212121;
+margin-top: 4px;
+margin-right: 7px;
+border-radius: 4px;
+}
+
+.input-check:checked + .labpolisity-text::before{
+    background: $trend-color;
+    border: 0;
+    background-image: url(../images/Vector\ \(9\)\ \(1\).svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 2px;
+}
+ 
+.visually-hedden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+.input-check{
+    display: flex;
+    /* height: 16px;
+    width: 16px;
+    background-image: url(../images/chek0.svg);
+background-repeat: no-repeat;
+background-size: contain; */
+} 
+
+
+
+
+
+
+.form-input:hover ~ .form-swg{
+    fill: #2196f3;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input:focus ~ .form-swg{
+      fill: #2196f3;
+      transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+
+
+    .textarea{ 
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+
+    }
+
+
+    .buttonform{
+        display: flex;
+
+
+/* position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 712px; */
+padding: 10px 55px;
+background: #2196F3;
+/* baground: #2196F3; */
+/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+border-radius: 4px;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+  
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #FFFFFF;
+    margin-top:30px;
+    border: 0;
+
+    }
+
+
+    .svgform-accomod{
+
+        display: block;
+        justify-content:center;
+        margin-left: 12px;
+        /* padding-left: auto;
+        padding-right: auto;
+        align-content: center; */
+       
+    }
+    
