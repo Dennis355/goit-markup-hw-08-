@@ -1,0 +1,63 @@
+.logo{
+    display: inline-block;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
+    @media screen and (max-width: 767px) {
+        display: flex;
+        margin-right: 30px;
+        align-items: center;
+    }
+    @media screen and (min-width: 767px) {
+        margin-top: 24px;
+    margin-bottom: 25px;
+    }
+    
+    
+}
+.logo__first{
+    color: $trend-color;
+}
+.logo__last{
+    // display: inline-block;
+    color: #212121;
+&--footer{ 
+    margin: 0;
+    color: #FFFFFF;
+}
+}
+
+
+
+
+
+
+.footer__logo{
+    
+
+    display: inline-block;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
+    &--first{
+        color: $trend-color;
+    }
+    &--last{
+        color: #FFFFFF;
+    }
+
+    @media screen and (min-width:320px) and (max-width: 1199px) {
+        font-size: 24px;
+    }
+   
+
+
+        
+    }
+
+   
+ 
